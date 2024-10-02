@@ -14,3 +14,5 @@ SELECT a, b, (180 - a - b) AS res
 FROM otherangle
 
 -- Ex 4
+SELECT DISTINCT age
+FROM people
