@@ -19,4 +19,6 @@ def set_alarm(employed, vacation):
     else:
         return False
     return
-       
+    
+    # Ex 2
+    
