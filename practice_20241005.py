@@ -20,5 +20,6 @@ def set_alarm(employed, vacation):
         return False
     return
     
+    
     # Ex 2
     
