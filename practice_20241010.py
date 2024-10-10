@@ -38,3 +38,40 @@ words = ['word', 'six']
 
 for word in words:
     print(get_middle(word))
+    
+
+# Ex 2
+'''
+    Write a function that checks if a given string (case insensitive) is a palindrome.
+
+    A palindrome is a word, number, phrase, or other sequence of symbols that reads 
+    the same backwards as forwards, such as madam or racecar.
+'''
+
+def is_palindrome(string):
+
+    string_reversed = ''
+    all_lower_case = string.lower()
+    
+    for letter in reversed(all_lower_case):
+        print(letter)
+        string_reversed += str(letter)
+        
+    if all_lower_case == string_reversed:
+        return True
+    else:
+        return False
+    
+    return
+
+# Test
+words = ['a', 
+         'aba', 
+         'Abba', 
+         'malam',
+         'walter',
+         'kodok',
+         'Kasue']
+
+for word in words:
+    print(is_palindrome(word))
