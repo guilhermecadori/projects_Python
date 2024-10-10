@@ -54,7 +54,6 @@ def is_palindrome(string):
     all_lower_case = string.lower()
     
     for letter in reversed(all_lower_case):
-        print(letter)
         string_reversed += str(letter)
         
     if all_lower_case == string_reversed:
