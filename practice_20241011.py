@@ -31,4 +31,7 @@ strings = ['ZpglnRxqenU', 'abcd', 'RqaEzty', 'cwAt']
 for string in strings:
     print(accum(string))
 
-    
+my_list = ['apple', 'banana', 'cherry']
+
+for idx, item in enumerate(my_list):
+    print(f"{idx}, {item}")
