@@ -10,10 +10,26 @@
     two_sum([1, 2, 3], 4) # returns (0, 2) or (2, 0)
     two_sum([3, 2, 4], 6) # returns (1, 2) or (2, 1)
 """
- # Function
- 
- 
- 
- # Test
- 
- 
+# Function
+def twoSum(numbers, target):
+    
+    numberArray = numbers
+    numberTarget = target
+    
+    for number1 in numberArray:
+        for number2 in numberArray:
+            if numberArray.index(number1) != numberArray.index(number2):
+                if number1 + number2 == numberTarget:
+                    position1 =  numberArray.index(number1)
+                    position2 =  numberArray.index(number2)
+                    positions = (position1, position2)
+                    
+                    return positions
+                
+
+             
+# Test
+numberArrayTest = [1, 2, 3]
+numberTargetTest = 4
+
+print(twoSum(numberArrayTest, numberTargetTest))
