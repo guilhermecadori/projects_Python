@@ -11,25 +11,24 @@
     two_sum([3, 2, 4], 6) # returns (1, 2) or (2, 1)
 """
 # Function
-def twoSum(numbers, target):
+def twoSum(numberArray, numberTarget):
     
-    numberArray = numbers
-    numberTarget = target
+    numberDict = {}
+    numberIdx = enumerate(numberArray)
+    sumValueList = []
     
-    for number1 in numberArray:
-        for number2 in numberArray:
-            if numberArray.index(number1) != numberArray.index(number2):
-                if number1 + number2 == numberTarget:
-                    position1 =  numberArray.index(number1)
-                    position2 =  numberArray.index(number2)
-                    positions = (position1, position2)
-                    
-                    return positions
-                
+    for idx, number in numberIdx:
+        numberDict[idx] = number
+    
+    for idx1 in numberDict.keys():
+        for idx2 in numberDict.keys():
+            if (idx1 != idx2) and (numberDict[idx1] + numberDict[idx2] == numberTarget):
+                return (idx1, idx2)
+    
+    return         
 
-             
 # Test
-numberArrayTest = [1, 2, 3]
+numberArrayTest = [2, 2, 3]
 numberTargetTest = 4
 
 print(twoSum(numberArrayTest, numberTargetTest))
