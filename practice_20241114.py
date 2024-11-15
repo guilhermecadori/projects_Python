@@ -15,7 +15,6 @@ def twoSum(numberArray, numberTarget):
     
     numberDict = {}
     numberIdx = enumerate(numberArray)
-    sumValueList = []
     
     for idx, number in numberIdx:
         numberDict[idx] = number
