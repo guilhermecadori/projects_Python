@@ -56,7 +56,7 @@
          *
         ***
          *
-        
+         
         Which would appear as a string: " *\n***\n *\n"
         
         A size 5 diamond:
@@ -65,7 +65,9 @@
         *****
          ***
           *
+        
         That is: "  *\n ***\n*****\n ***\n  *\n"
+
 """
 
 # Function
@@ -89,6 +91,8 @@ def create_diamond(n):
             stars = "*" * (2 * i + 1)
             diamond.append(spaces + stars)
     
+    # Adding a final newline (\n) character at the end of the diamond string
+    # Without this, some applications might not properly handle the last line
     return "\n".join(diamond) + "\n"
 
 # Test
