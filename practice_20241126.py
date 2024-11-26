@@ -81,14 +81,12 @@ def create_diamond(n):
     for i in range(mid_section + 1):
         spaces = " " * (mid_section - i)
         stars = "*" * (2 * i + 1)
-        # print(spaces + stars) # Added for checking purposes
         diamond.append(spaces + stars)
 
     # Bottom half
     for i in range(mid_section-1, -1, -1):
             spaces = " " * (mid_section - i)
             stars = "*" * (2 * i + 1)
-            # print(spaces + stars)
             diamond.append(spaces + stars)
     
     return "\n".join(diamond) + "\n"
