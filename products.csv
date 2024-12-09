@@ -1,0 +1,101 @@
+ProductID,ProductName,Category,Price,StockQuantity
+1,Product_1,Books,458.33,778.0
+2,Product_2,Sports,426.52,987.0
+3,Product_3,Home & Kitchen,230.23,
+4,Product_4,Sports,56.75,472.0
+5,Product_5,Sports,191.7,945.0
+6,Product_6,Clothing,337.73,150.0
+7,Product_7,Home & Kitchen,336.3,414.0
+8,Product_8,Home & Kitchen,299.74,989.0
+9,Product_9,Home & Kitchen,144.61,297.0
+10,Product_10,Sports,285.01,610.0
+11,Product_11,Books,197.63,262.0
+12,Product_12,Home & Kitchen,486.14,763.0
+13,Product_13,Sports,425.97,143.0
+14,Product_14,Clothing,363.65,345.0
+15,Product_15,Books,125.63,623.0
+16,Product_16,Clothing,135.47,571.0
+17,Product_17,Books,29.81,880.0
+18,Product_18,Sports,358.22,1.0
+19,Product_19,Electronics,64.34,896.0
+20,Product_20,Books,225.27,303.0
+21,Product_21,Clothing,108.84,253.0
+22,Product_22,Sports,448.92,651.0
+23,Product_23,Books,242.93,452.0
+24,Product_24,Electronics,286.01,36.0
+25,Product_25,Electronics,350.8,159.0
+26,Product_26,Home & Kitchen,78.27,8.0
+27,Product_27,Home & Kitchen,306.16,232.0
+28,Product_28,Clothing,274.52,98.0
+29,Product_29,Books,109.5,658.0
+30,Product_30,Books,472.0,815.0
+31,Product_31,Home & Kitchen,303.44,207.0
+32,Product_32,Books,350.44,130.0
+33,Product_33,Books,441.43,403.0
+34,Product_34,Electronics,315.93,
+35,Product_35,Home & Kitchen,154.86,53.0
+36,Product_36,Sports,61.69,119.0
+37,Product_37,Home & Kitchen,233.7,672.0
+38,Product_38,Sports,117.04,919.0
+39,Product_39,Electronics,214.09,627.0
+40,Product_40,Clothing,442.81,586.0
+41,Product_41,Books,168.93,624.0
+42,Product_42,Electronics,69.82,967.0
+43,Product_43,Books,184.59,419.0
+44,Product_44,Clothing,454.35,421.0
+45,Product_45,Clothing,143.34,103.0
+46,Product_46,Electronics,327.37,851.0
+47,Product_47,Clothing,10.25,253.0
+48,Product_48,Sports,182.76,226.0
+49,Product_49,Clothing,159.34,111.0
+50,Product_50,Books,90.68,509.0
+51,Product_51,Books,271.7,472.0
+52,Product_52,Books,247.57,
+53,Product_53,Books,349.29,152.0
+54,Product_54,Sports,142.01,860.0
+55,Product_55,Home & Kitchen,129.62,913.0
+56,Product_56,Electronics,92.46,
+57,Product_57,Books,117.19,877.0
+58,Product_58,Clothing,283.47,337.0
+59,Product_59,Books,207.88,705.0
+60,Product_60,Clothing,41.8,821.0
+61,Product_61,Clothing,134.42,162.0
+62,Product_62,Books,130.97,719.0
+63,Product_63,Sports,351.19,956.0
+64,Product_64,Clothing,359.01,680.0
+65,Product_65,Clothing,82.56,995.0
+66,Product_66,Books,498.89,160.0
+67,Product_67,Clothing,140.72,579.0
+68,Product_68,Clothing,488.54,800.0
+69,Product_69,Books,211.41,397.0
+70,Product_70,Books,26.19,276.0
+71,Product_71,Electronics,179.08,815.0
+72,Product_72,Sports,320.83,915.0
+73,Product_73,Sports,343.55,503.0
+74,Product_74,Clothing,270.16,895.0
+75,Product_75,Sports,229.41,391.0
+76,Product_76,Clothing,280.92,134.0
+77,Product_77,Electronics,300.42,194.0
+78,Product_78,Books,49.62,400.0
+79,Product_79,Books,191.13,639.0
+80,Product_80,Books,128.66,32.0
+81,Product_81,Sports,403.54,687.0
+82,Product_82,Electronics,240.45,459.0
+83,Product_83,Sports,491.88,954.0
+84,Product_84,Sports,205.42,882.0
+85,Product_85,Electronics,410.05,469.0
+86,Product_86,Electronics,401.19,374.0
+87,Product_87,Electronics,83.85,21.0
+88,Product_88,Electronics,259.02,749.0
+89,Product_89,Books,350.95,669.0
+90,Product_90,Home & Kitchen,430.6,37.0
+91,Product_91,Home & Kitchen,169.72,229.0
+92,Product_92,Electronics,117.92,364.0
+93,Product_93,Home & Kitchen,358.46,562.0
+94,Product_94,Home & Kitchen,406.66,437.0
+95,Product_95,Electronics,180.85,775.0
+96,Product_96,Home & Kitchen,57.13,
+97,Product_97,Sports,470.86,26.0
+98,Product_98,Clothing,204.81,225.0
+99,Product_99,Clothing,263.7,276.0
+100,Product_100,Electronics,420.48,797.0
