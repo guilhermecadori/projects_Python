@@ -13,6 +13,7 @@ num_sales = 1000
 product_ids = np.arange(1, num_products + 1)
 product_names = [f'Product_{i}' for i in product_ids]
 categories = np.random.choice(['Electronics', 'Clothing', 'Home & Kitchen', 'Books', 'Sports'], size=num_products)
+region = np.random.choice(['North', 'South', 'East', 'West'], size=num_products)
 prices = np.round(np.random.uniform(10, 500, size=num_products), 2)
 stock_quantities = np.random.randint(0, 1000, size=num_products)
 
@@ -20,6 +21,7 @@ products_df = pd.DataFrame({
     'ProductID': product_ids,
     'ProductName': product_names,
     'Category': categories,
+    'Region': region,
     'Price': prices,
     'StockQuantity': stock_quantities
 })
