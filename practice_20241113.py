@@ -17,7 +17,6 @@
 def countNonUnique(stringInput):
 
     stringInput = stringInput.lower()
-    
     elementDict = {}
     nonUnique = 0
     
@@ -30,9 +29,7 @@ def countNonUnique(stringInput):
     for count in elementDict.values(): 
         if count > 1:
             nonUnique += 1
-
     # print(elementDict)
-    
     return nonUnique
 
 # Test
